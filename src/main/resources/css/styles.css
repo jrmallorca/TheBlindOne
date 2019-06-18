@@ -1,0 +1,22 @@
+/* Importing fonts */
+@font-face {
+    src: url("../fonts/BIRTH_OF_A_HERO.ttf");
+}
+
+/* General */
+.root {
+    -fx-background-color: #000;
+}
+
+.label {
+    -fx-font: 280px "BIRTH OF A HERO";
+    -fx-text-fill: #fff;
+    -fx-text-align: center;
+}
+
+.button {
+	-fx-font: 40px "BIRTH OF A HERO";
+    -fx-background-color: #000;
+    -fx-text-fill: #fff;
+    -fx-text-align: center;
+}
