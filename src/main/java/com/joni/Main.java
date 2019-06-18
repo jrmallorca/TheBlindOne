@@ -19,7 +19,7 @@ public class Main extends Application {
         scene = new Scene(root);
         window.setScene(scene);
 
-        root.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
 
         window.setFullScreen(true);
         window.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
