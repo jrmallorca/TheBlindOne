@@ -17,12 +17,12 @@
         <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
     </rowConstraints>
     <children>
-        <Label text="THE BLIND ONE" />
+        <Label id="title" text="THE BLIND ONE" />
       <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" GridPane.rowIndex="1">
          <children>
-            <Button mnemonicParsing="false" text="New Game" />
-            <Button mnemonicParsing="false" text="Controls" />
-            <Button mnemonicParsing="false"  onAction="#exitGame" text="Exit Game" />
+            <Button mnemonicParsing="false" fx:id="newGame" onAction="#switchScene" text="New Game" />
+            <Button mnemonicParsing="false" fx:id="controls" onAction="#switchScene" text="Controls" />
+            <Button mnemonicParsing="false" onAction="#exitGame" text="Exit Game" />
          </children>
       </VBox>
     </children>

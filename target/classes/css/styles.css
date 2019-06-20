@@ -4,19 +4,41 @@
 }
 
 /* General */
-.root {
+* {
     -fx-background-color: #000;
+    -fx-font-family: "BIRTH OF A HERO";
+    -fx-text-fill: #fff;
+    -fx-alignment: center;
 }
 
 .label {
-    -fx-font: 280px "BIRTH OF A HERO";
-    -fx-text-fill: #fff;
+    -fx-font-size: 60px;
     -fx-text-align: center;
 }
 
 .button {
-	-fx-font: 40px "BIRTH OF A HERO";
-    -fx-background-color: #000;
-    -fx-text-fill: #fff;
+	-fx-font-size: 40px;
     -fx-text-align: center;
+}
+
+.text-field {
+    -fx-font-size: 40px;
+}
+
+/* Title Screen: "The Blind One" */
+#title {
+    -fx-font-size: 280px;
+}
+
+/* Confirmation button */
+#confirmation {
+	-fx-background-image: url("../img/border.png");
+}
+
+#confirmationLabel {
+	-fx-font-size: 50px;
+}
+
+#confirmationButton {
+	-fx-font-size: 30px;
 }

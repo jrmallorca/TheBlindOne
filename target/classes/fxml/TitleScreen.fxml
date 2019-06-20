@@ -16,7 +16,7 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Label text="THE BLIND ONE" />
-      <Button mnemonicParsing="false" onAction="#pressToContinue" text="Press To Continue" GridPane.rowIndex="1" />
+      <Label id="title" text="THE BLIND ONE" />
+      <Button mnemonicParsing="false" onAction="#switchScene" text="Press To Continue" GridPane.rowIndex="1" />
    </children>
 </GridPane>
