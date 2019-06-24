@@ -14,12 +14,11 @@ public class Main extends Application {
     @Override
     public void start(Stage window) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/TitleScreen.fxml"));
+        root.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
         window.setTitle("The Blind One");
 
         scene = new Scene(root);
         window.setScene(scene);
-
-        scene.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
 
         window.setFullScreen(true);
         window.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);

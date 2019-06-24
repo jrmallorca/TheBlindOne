@@ -30,15 +30,7 @@
     -fx-font-size: 280px;
 }
 
-/* Confirmation button */
+/* Confirmation prompt border */
 #confirmation {
 	-fx-background-image: url("../img/border.png");
-}
-
-#confirmationLabel {
-	-fx-font-size: 50px;
-}
-
-#confirmationButton {
-	-fx-font-size: 30px;
 }

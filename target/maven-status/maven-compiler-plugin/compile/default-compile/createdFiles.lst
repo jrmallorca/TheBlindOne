@@ -1,0 +1,7 @@
+com\joni\controllers\CharCreationController.class
+com\joni\controllers\ControlsController.class
+com\joni\controllers\ConfirmationController.class
+com\joni\Main.class
+module-info.class
+com\joni\controllers\TitleScreenController.class
+com\joni\controllers\TitleScreen2Controller.class

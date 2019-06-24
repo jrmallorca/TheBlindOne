@@ -4,7 +4,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
-import javafx.stage.Popup;
+import javafx.stage.Stage;
 
 public class ConfirmationController {
 
@@ -13,7 +13,7 @@ public class ConfirmationController {
     // Depending on choice made (yes/no), execute appropriate action
     @FXML
     public void choiceMade(ActionEvent event) {
-        Popup popUp = (Popup) ((Node)event.getSource()).getScene().getWindow();
+        Stage popUp = (Stage) ((Node)event.getSource()).getScene().getWindow();
         popUp.hide();
 
 //        if (event.getSource() == yesButton) {
