@@ -1,7 +1,11 @@
-com\joni\controllers\CharCreationController.class
-com\joni\controllers\ControlsController.class
-com\joni\controllers\ConfirmationController.class
+com\joni\controller\ControlsController.class
+com\joni\AlphaNumericTextFormatter.class
+com\joni\controller\ConfirmationController.class
+com\joni\controller\TitleScreenController.class
+com\joni\MaxLengthTextFormatter.class
+com\joni\controller\CharCreationController.class
 com\joni\Main.class
+com\joni\model\WindowModel.class
 module-info.class
-com\joni\controllers\TitleScreenController.class
-com\joni\controllers\TitleScreen2Controller.class
+com\joni\controller\TitleScreen2Controller.class
+com\joni\model\FXMLName.class

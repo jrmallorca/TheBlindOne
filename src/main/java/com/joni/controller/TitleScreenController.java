@@ -1,28 +1,35 @@
 package com.joni.controller;
 
-import javafx.event.ActionEvent;
+import com.joni.model.FXMLName;
+import com.joni.model.WindowModel;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Map;
+
+import static com.joni.model.FXMLName.TITLE_SCREEN_2;
 
 public class TitleScreenController {
 
-    // Changes screen to TitleScreen2.fxml
-    // Does this by swapping parents rather than creating a new scene
+    private WindowModel windowModel;
+
+    private final Map<FXMLName, String> fxmlPaths = Collections.singletonMap(TITLE_SCREEN_2, "/fxml/TitleScreen2.fxml");
+
     @FXML
-    public void switchScene(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(getClass().getResource("/fxml/TitleScreen2.fxml"));
-        parent.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
-
-        // Get stage information (Look at start() in Main.java)
-        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-
-        window.getScene().setRoot(parent);
-        window.show();
+    public void switchScene() throws IOException {
+        windowModel.setSceneParent(windowModel.getParent(windowModel.getFXMLLoader(TITLE_SCREEN_2)));
     }
 
+    public void setWindowModel(WindowModel model) {
+        windowModel = model;
+    }
+
+    public WindowModel getWindowModel(WindowModel model) {
+        return windowModel;
+    }
+
+    public Map<FXMLName, String> getFXMLPaths() {
+        return fxmlPaths;
+    }
 }

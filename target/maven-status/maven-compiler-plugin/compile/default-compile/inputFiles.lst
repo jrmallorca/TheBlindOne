@@ -1,7 +1,11 @@
-D:\JavaProjects\RPG\src\main\java\com\joni\controllers\CharCreationController.java
-D:\JavaProjects\RPG\src\main\java\com\joni\controllers\TitleScreen2Controller.java
-D:\JavaProjects\RPG\src\main\java\com\joni\controllers\TitleScreenController.java
+D:\JavaProjects\RPG\src\main\java\com\joni\controller\CharCreationController.java
+D:\JavaProjects\RPG\src\main\java\com\joni\controller\TitleScreen2Controller.java
+D:\JavaProjects\RPG\src\main\java\com\joni\controller\ControlsController.java
+D:\JavaProjects\RPG\src\main\java\com\joni\model\WindowModel.java
+D:\JavaProjects\RPG\src\main\java\com\joni\model\FXMLName.java
+D:\JavaProjects\RPG\src\main\java\com\joni\controller\TitleScreenController.java
+D:\JavaProjects\RPG\src\main\java\com\joni\AlphaNumericTextFormatter.java
 D:\JavaProjects\RPG\src\main\java\com\joni\Main.java
-D:\JavaProjects\RPG\src\main\java\com\joni\controllers\ConfirmationController.java
-D:\JavaProjects\RPG\src\main\java\com\joni\controllers\ControlsController.java
+D:\JavaProjects\RPG\src\main\java\com\joni\controller\ConfirmationController.java
 D:\JavaProjects\RPG\src\main\java\module-info.java
+D:\JavaProjects\RPG\src\main\java\com\joni\MaxLengthTextFormatter.java

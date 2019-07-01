@@ -6,40 +6,42 @@ import javafx.scene.Scene;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Map;
 
 /*
     This model handles the logic of switching scenes
  */
 public class WindowModel {
 
-    private HashMap<FXMLName, FXMLLoader> fxmlLoaderMap = new HashMap<>();
+    private final HashMap<FXMLName, String> loaderHashMap = new HashMap<>();
     private Scene scene;
 
-    public WindowModel(Scene scene) {
-        this.scene = scene;
+    public void setMap(Map<FXMLName, String> map) {
+        loaderHashMap.clear();
+        loaderHashMap.putAll(map);
     }
 
-    public void addFXMLLoader(FXMLName name, String pathFXML){
-        fxmlLoaderMap.put(name, new FXMLLoader(getClass().getResource(pathFXML)));
+    public HashMap getMap() {
+        return loaderHashMap;
     }
 
-    public void removeFXMLLoader(FXMLName name){
-        fxmlLoaderMap.remove(name);
+    public FXMLLoader getFXMLLoader(FXMLName name) {
+        return new FXMLLoader(getClass().getResource(loaderHashMap.get(name)));
     }
 
-    public Parent getParent(FXMLName name) throws IOException {
-        return (Parent) fxmlLoaderMap.get(name).load();
+    // Gets the parents and also sets the stylesheet
+    public Parent getParent(FXMLLoader loader) throws IOException {
+        Parent parent = loader.load();
+        parent.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
+        return parent;
     }
 
-    public Object getController(FXMLLoader loader) {
-        return loader.getController();
-    }
-
-    public void switchScene(Parent parent){
+    // The scene switcher
+    public void setSceneParent(Parent parent){
         scene.setRoot(parent);
     }
 
-    public void setStyleSheet(Parent parent, String pathCSS) {
-        parent.getStylesheets().add(getClass().getResource(pathCSS).toExternalForm());
+    public void setScene(Scene scene) {
+        this.scene = scene;
     }
 }
