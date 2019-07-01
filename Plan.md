@@ -23,3 +23,6 @@ Instructions
 - Calculate damage.
 
 - EXP.
+
+Getters and setters for each controller so as to be able to set values within their fields.
+Implement MVC Design Pattern

@@ -1,4 +1,4 @@
-package com.joni.controllers;
+package com.joni.controller;
 
 import com.joni.AlphaNumericTextFormatter;
 import javafx.fxml.FXML;
