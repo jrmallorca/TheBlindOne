@@ -13,17 +13,9 @@ import java.util.Map;
  */
 public class WindowModel {
 
+    // TODO: 02/07/2019 Move these fields to the MainWindowController
     private final HashMap<FXMLName, String> loaderHashMap = new HashMap<>();
     private Scene scene;
-
-    public void setMap(Map<FXMLName, String> map) {
-        loaderHashMap.clear();
-        loaderHashMap.putAll(map);
-    }
-
-    public HashMap getMap() {
-        return loaderHashMap;
-    }
 
     public FXMLLoader getFXMLLoader(FXMLName name) {
         return new FXMLLoader(getClass().getResource(loaderHashMap.get(name)));
@@ -39,6 +31,11 @@ public class WindowModel {
     // The scene switcher
     public void setSceneParent(Parent parent){
         scene.setRoot(parent);
+    }
+
+    public void setMap(Map<FXMLName, String> map) {
+        loaderHashMap.clear();
+        loaderHashMap.putAll(map);
     }
 
     public void setScene(Scene scene) {

@@ -34,10 +34,8 @@ public class Main extends Application {
 
         // Get controller and set appropriate values for its fields
         TitleScreenController controller = loader.getController();
-        controller.setWindowModel(windowModel);
-
-        // Configure contents of the HashMap inside windowModel
         windowModel.setMap(controller.getFXMLPaths());
+        controller.setWindowModel(windowModel);
 
         // Set the settings for the window
         window.setFullScreen(true);

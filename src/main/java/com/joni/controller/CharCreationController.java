@@ -1,6 +1,8 @@
 package com.joni.controller;
 
 import com.joni.AlphaNumericTextFormatter;
+import com.joni.model.FXMLName;
+import com.joni.model.WindowModel;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -16,12 +18,17 @@ import javafx.stage.StageStyle;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.ResourceBundle;
 
 public class CharCreationController implements Initializable {
 
     @FXML
     public TextField textField;
+
+    private WindowModel windowModel;
+    private final Map<FXMLName, String> fxmlPaths = new HashMap<>();
 
     @FXML
     @Override
@@ -50,5 +57,14 @@ public class CharCreationController implements Initializable {
 
         popUp.setScene(new Scene(parent));
         popUp.show();
+    }
+
+    Map<FXMLName, String> getFXMLPaths() {
+        // TODO: 02/07/2019 Add FXML paths
+        return fxmlPaths;
+    }
+
+    void setWindowModel(WindowModel model) {
+        windowModel = model;
     }
 }

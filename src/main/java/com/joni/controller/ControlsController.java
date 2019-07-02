@@ -1,27 +1,39 @@
 package com.joni.controller;
 
-import javafx.event.ActionEvent;
+import com.joni.model.FXMLName;
+import com.joni.model.WindowModel;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Collections;
+import java.util.Map;
+
+import static com.joni.model.FXMLName.TITLE_SCREEN_2;
 
 public class ControlsController {
 
+    private WindowModel windowModel;
+    private final Map<FXMLName, String> fxmlPaths = Collections.singletonMap(TITLE_SCREEN_2, "/fxml/TitleScreen2.fxml");
+
     @FXML
-    public void switchScene(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(getClass().getResource("/fxml/TitleScreen2.fxml"));
+    public void switchScene() throws IOException {
+        // Load the FXML file and change the scene
+        FXMLLoader loader = windowModel.getFXMLLoader(TITLE_SCREEN_2);
+        windowModel.setSceneParent(windowModel.getParent(loader));
 
-        parent.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
+        // Get controller and set appropriate values for its fields
+        TitleScreen2Controller controller = loader.getController();
+        windowModel.setMap(controller.getFXMLPaths());
+        controller.setWindowModel(windowModel);
+    }
 
-        // Get stage information (Look at start() in Main.java)
-        Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
+    Map<FXMLName, String> getFXMLPaths() {
+        return fxmlPaths;
+    }
 
-        window.getScene().setRoot(parent);
-        window.show();
+    void setWindowModel(WindowModel model) {
+        windowModel = model;
     }
 
 }
