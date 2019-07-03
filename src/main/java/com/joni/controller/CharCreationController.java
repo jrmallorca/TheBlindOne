@@ -19,18 +19,18 @@ import javafx.stage.StageStyle;
 import java.io.IOException;
 import java.net.URL;
 import java.util.HashMap;
-import java.util.Map;
 import java.util.ResourceBundle;
 
-public class CharCreationController implements Initializable {
+public class CharCreationController extends MainWindowController implements Initializable {
 
     @FXML
     public TextField textField;
 
-    private WindowModel windowModel;
-    private final Map<FXMLName, String> fxmlPaths = new HashMap<>();
+    CharCreationController(Stage stage, WindowModel windowModel, HashMap<FXMLName, String> map) {
+        super(stage, windowModel, map);
+        setPathsFXML();
+    }
 
-    @FXML
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         textField.setTextFormatter(new AlphaNumericTextFormatter(20));
@@ -59,12 +59,9 @@ public class CharCreationController implements Initializable {
         popUp.show();
     }
 
-    Map<FXMLName, String> getFXMLPaths() {
-        // TODO: 02/07/2019 Add FXML paths
-        return fxmlPaths;
+    @Override
+    void setPathsFXML() {
+        // TODO: 03/07/2019 Add next fxml scenes
     }
 
-    void setWindowModel(WindowModel model) {
-        windowModel = model;
-    }
 }
