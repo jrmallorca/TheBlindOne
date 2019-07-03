@@ -9,33 +9,27 @@ import javafx.scene.Scene;
 import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 
-import java.util.Collections;
-import java.util.Map;
+import java.io.IOException;
+import java.util.HashMap;
 
 import static com.joni.model.FXMLName.TITLE_SCREEN;
 
 public class Main extends Application {
 
-    private final Map<FXMLName, String> fxmlPaths = Collections.singletonMap(TITLE_SCREEN, "/fxml/TitleScreen.fxml");
-
     @Override
-    public void start(Stage window) throws Exception {
+    public void start(Stage window) throws IOException {
         // Create an instance of a model that will help switching scenes
         WindowModel windowModel = new WindowModel();
-        windowModel.setMap(fxmlPaths);
+        HashMap<FXMLName, String> pathsFXML = new HashMap<>();
+        pathsFXML.put(TITLE_SCREEN, "/fxml/TitleScreen.fxml");
 
-        // Load the FXML file
-        FXMLLoader loader = windowModel.getFXMLLoader(TITLE_SCREEN);
+        // Load FXML file, set controller and its fields
+        FXMLLoader loader = windowModel.getFXMLLoader(FXMLName.TITLE_SCREEN, pathsFXML);
+        loader.setControllerFactory(type -> new TitleScreenController(window, windowModel, pathsFXML));
 
-        // Create an instance of a scene, add it to windowModel and set the window's scene
+        // Create an instance of a scene and set it to the window
         Scene scene = new Scene(windowModel.getParent(loader));
-        windowModel.setScene(scene);
         window.setScene(scene);
-
-        // Get controller and set appropriate values for its fields
-        TitleScreenController controller = loader.getController();
-        windowModel.setMap(controller.getFXMLPaths());
-        controller.setWindowModel(windowModel);
 
         // Set the settings for the window
         window.setFullScreen(true);
@@ -43,6 +37,7 @@ public class Main extends Application {
 
         window.show();
     }
+
 
     public static void main(String[] args) {
         launch(args);

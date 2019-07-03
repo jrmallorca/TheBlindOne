@@ -2,23 +2,18 @@ package com.joni.model;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
-import javafx.scene.Scene;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Map;
 
 /*
     This model handles the logic of switching scenes
  */
 public class WindowModel {
 
-    // TODO: 02/07/2019 Move these fields to the MainWindowController
-    private final HashMap<FXMLName, String> loaderHashMap = new HashMap<>();
-    private Scene scene;
-
-    public FXMLLoader getFXMLLoader(FXMLName name) {
-        return new FXMLLoader(getClass().getResource(loaderHashMap.get(name)));
+    public FXMLLoader getFXMLLoader(FXMLName name, HashMap<FXMLName, String> map) {
+        return new FXMLLoader(getClass().getResource(map.get(name)));
     }
 
     // Gets the parents and also sets the stylesheet
@@ -29,16 +24,8 @@ public class WindowModel {
     }
 
     // The scene switcher
-    public void setSceneParent(Parent parent){
-        scene.setRoot(parent);
+    public void setSceneParent(Stage stage, Parent parent){
+        stage.getScene().setRoot(parent);
     }
 
-    public void setMap(Map<FXMLName, String> map) {
-        loaderHashMap.clear();
-        loaderHashMap.putAll(map);
-    }
-
-    public void setScene(Scene scene) {
-        this.scene = scene;
-    }
 }
