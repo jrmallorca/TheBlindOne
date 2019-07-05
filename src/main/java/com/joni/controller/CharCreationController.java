@@ -1,20 +1,15 @@
 package com.joni.controller;
 
 import com.joni.AlphaNumericTextFormatter;
+import com.joni.model.ConfirmModel;
 import com.joni.model.FXMLName;
 import com.joni.model.WindowModel;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
-import javafx.scene.Node;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
-import javafx.stage.Modality;
 import javafx.stage.Stage;
-import javafx.stage.StageStyle;
 
 import java.io.IOException;
 import java.net.URL;
@@ -25,6 +20,8 @@ public class CharCreationController extends MainWindowController implements Init
 
     @FXML
     public TextField textField;
+
+    private ConfirmModel confirmModel;
 
     CharCreationController(Stage stage, WindowModel windowModel, HashMap<FXMLName, String> map) {
         super(stage, windowModel, map);
@@ -39,29 +36,28 @@ public class CharCreationController extends MainWindowController implements Init
     // If name.length >= 1, ask player if they're sure of the name chosen
     @FXML
     public void checkLength(KeyEvent event) throws IOException {
-        if (event.getCode() == KeyCode.ENTER)
+        if (event.getCode() == KeyCode.ENTER) {
             if (textField.getText().length() > 0) {
-                Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
-                confirmation(window);
+                confirmModel = new ConfirmModel();
+                if (confirmModel.confirm(getStage(), getWindowModel().getFXMLLoader(FXMLName.CONFIRM, getMapFXML())))
+                    switchScene();
             }
+        }
     }
 
-    private void confirmation(Stage window) throws IOException {
-        Stage popUp = new Stage();
-        popUp.initStyle(StageStyle.UNDECORATED); // Makes sure that window has no minimize, exit, etc. buttons
-        popUp.initModality(Modality.APPLICATION_MODAL); // Window process has to be completed before being able to interact with parent window
-        popUp.initOwner(window);
-
-        Parent parent = FXMLLoader.load(getClass().getResource("/fxml/Confirmation.fxml"));
-        parent.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());
-
-        popUp.setScene(new Scene(parent));
-        popUp.show();
+    @FXML
+    private void switchScene() throws IOException {
+        // TODO: 03/07/2019 Add the next FXML later
+        // switchScene();
+        System.out.println("Working");
     }
 
     @Override
     void setPathsFXML() {
         // TODO: 03/07/2019 Add next fxml scenes
+        HashMap<FXMLName, String> mapFXML = getMapFXML();
+        mapFXML.clear();
+        mapFXML.put(FXMLName.CONFIRM, "/fxml/Confirm.fxml");
     }
 
 }

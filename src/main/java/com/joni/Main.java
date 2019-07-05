@@ -28,8 +28,7 @@ public class Main extends Application {
         loader.setControllerFactory(type -> new TitleScreenController(window, windowModel, pathsFXML));
 
         // Create an instance of a scene and set it to the window
-        Scene scene = new Scene(windowModel.getParent(loader));
-        window.setScene(scene);
+        window.setScene(new Scene(windowModel.getParent(loader)));
 
         // Set the settings for the window
         window.setFullScreen(true);

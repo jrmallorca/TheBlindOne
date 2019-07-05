@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="364.0" prefWidth="917.0"
           xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1"
-          id="confirmation" fx:controller="com.joni.controller.ConfirmationController">
+          id="confirmation" fx:controller="com.joni.controller.ConfirmController">
   <columnConstraints>
     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -15,8 +15,8 @@
     <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
   </rowConstraints>
    <children>
-      <Label text="Is this your name?" GridPane.columnSpan="2147483647" />
-      <Button mnemonicParsing="false" fx:id="yesButton" onAction="#choiceMade" text="Yes" GridPane.rowIndex="1" />
-      <Button mnemonicParsing="false" text="No" onAction="#choiceMade" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label fx:id="label" GridPane.columnSpan="2147483647" />
+      <Button mnemonicParsing="false" fx:id="yesButton" onAction="#choiceMadeButton" text="Yes" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" onAction="#choiceMadeButton" text="No" GridPane.columnIndex="1" GridPane.rowIndex="1" />
    </children>
 </GridPane>

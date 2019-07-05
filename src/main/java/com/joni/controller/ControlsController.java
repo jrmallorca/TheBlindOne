@@ -20,13 +20,13 @@ public class ControlsController extends MainWindowController {
 
     @FXML
     public void switchScene() throws IOException {
-        Stage window = getStage();
+        Stage stage = getStage();
         WindowModel windowModel = getWindowModel();
         HashMap<FXMLName, String> mapFXML = getMapFXML();
 
         FXMLLoader loader = windowModel.getFXMLLoader(TITLE_SCREEN_2, mapFXML);
-        loader.setControllerFactory(type -> new TitleScreen2Controller(window, windowModel, mapFXML));
-        windowModel.setSceneParent(window, windowModel.getParent(loader));
+        loader.setControllerFactory(type -> new TitleScreen2Controller(stage, windowModel, mapFXML));
+        windowModel.setSceneParent(stage, windowModel.getParent(loader));
     }
 
     @Override
