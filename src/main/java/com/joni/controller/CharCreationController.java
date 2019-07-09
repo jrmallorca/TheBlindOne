@@ -9,6 +9,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -16,10 +17,16 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.ResourceBundle;
 
+import static com.joni.model.FXMLName.CONFIRM;
+
 public class CharCreationController extends MainWindowController implements Initializable {
 
+    // Fields mainly for testing purposes
     @FXML
-    public TextField textField;
+    private GridPane charCreation;
+
+    @FXML
+    private TextField textField;
 
     private ConfirmModel confirmModel;
 
@@ -35,21 +42,21 @@ public class CharCreationController extends MainWindowController implements Init
 
     // If name.length >= 1, ask player if they're sure of the name chosen
     @FXML
-    public void checkLength(KeyEvent event) throws IOException {
+    private void checkLength(KeyEvent event) throws IOException {
         if (event.getCode() == KeyCode.ENTER) {
             if (textField.getText().length() > 0) {
                 confirmModel = new ConfirmModel();
-                if (confirmModel.confirm(getStage(), getWindowModel().getFXMLLoader(FXMLName.CONFIRM, getMapFXML())))
+                if (confirmModel.confirm(getStage(), getWindowModel().getFXMLLoader(CONFIRM, getMapFXML())))
                     switchScene();
             }
         }
     }
 
-    @FXML
     private void switchScene() throws IOException {
         // TODO: 03/07/2019 Add the next FXML later
-        // switchScene();
         System.out.println("Working");
+
+//        setNextRootID(stage.getScene().getRoot().getId());
     }
 
     @Override
@@ -57,7 +64,7 @@ public class CharCreationController extends MainWindowController implements Init
         // TODO: 03/07/2019 Add next fxml scenes
         HashMap<FXMLName, String> mapFXML = getMapFXML();
         mapFXML.clear();
-        mapFXML.put(FXMLName.CONFIRM, "/fxml/Confirm.fxml");
+        mapFXML.put(CONFIRM, "/fxml/Confirm.fxml");
     }
 
 }

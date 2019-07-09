@@ -2,24 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f28326f-d0de-490c-9b6b-5a21f1b687a9" name="Default Changelist" comment="Made code neater using MainWindowController">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/model/FXMLName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/model/FXMLName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Confirmation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Confirm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joni/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/CharCreationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/CharCreationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/ConfirmationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/ConfirmController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/ConfirmController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/ControlsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/ControlsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/MainWindowController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/TitleScreen2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/TitleScreen2Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/TitleScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/TitleScreenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/model/FXMLName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/model/FXMLName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Confirmation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/CharCreation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/CharCreation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Controls.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/Controls.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/TitleScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/TitleScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/TitleScreen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/TitleScreen2.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,40 +53,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/TitleScreenTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="538">
+              <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/TitleScreen2Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/WindowModel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#ConfirmController#0;class#ConfirmController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initialize#0;class#CharCreationController#0" />
-                <element signature="method#switchScene#0;class#CharCreationController#0" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -102,6 +117,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Popup</find>
+      <find>Hygene</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,15 +136,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/css/styles.css" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/TitleScreen2Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/ControlsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/ConfirmationController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/validation/CharCreationTextField.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/validation/CharCreationListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/asd.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/AlphaNumericTextController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/TitleScreenController.java" />
         <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/CharCreationController.java" />
@@ -136,24 +148,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joni/MaxLengthTextFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/models/WindowModel.java" />
         <option value="$PROJECT_DIR$/Plan.md" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/SetFXMLPaths.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/model/WindowModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/NewMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmationModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmationController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Confirmation.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/model/FXMLName.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Confirm.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/joni/WindowSceneTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joni/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/joni/TestFXBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/joni/TitleScreenTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/joni/TitleScreen2Test.java" />
       </list>
     </option>
   </component>
@@ -194,7 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,11 +281,32 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="fxml" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPG" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="joni" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -303,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.joni.Main" />
       <module name="rpg" />
@@ -317,9 +358,75 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TitleScreen2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joni" />
+      <option name="MAIN_CLASS_NAME" value="com.joni.TitleScreen2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleScreenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joni" />
+      <option name="MAIN_CLASS_NAME" value="com.joni.TitleScreenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleScreenTest.testContainsButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joni" />
+      <option name="MAIN_CLASS_NAME" value="com.joni.TitleScreenTest" />
+      <option name="METHOD_NAME" value="testContainsButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TitleScreenTest.testSwitchSceneCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joni.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joni" />
+      <option name="MAIN_CLASS_NAME" value="com.joni.TitleScreenTest" />
+      <option name="METHOD_NAME" value="testSwitchSceneCorrectly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TitleScreen2Test" />
+        <item itemvalue="JUnit.TitleScreenTest" />
+        <item itemvalue="JUnit.TitleScreenTest.testSwitchSceneCorrectly" />
+        <item itemvalue="JUnit.TitleScreenTest.testContainsButton" />
       </list>
     </recent_temporary>
   </component>
@@ -365,6 +472,38 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TitleScreenTest_should_contain_button - 2019.07.08 at 17h 53m 35s.xml">
+      <configuration name="TitleScreenTest.should_contain_button" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreenTest_testSwitchSceneCorrectly - 2019.07.09 at 11h 20m 56s.xml">
+      <configuration name="TitleScreenTest.testSwitchSceneCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreenTest_testSwitchSceneCorrectly - 2019.07.09 at 11h 53m 05s.xml">
+      <configuration name="TitleScreenTest.testSwitchSceneCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreenTest_testSwitchSceneCorrectly - 2019.07.09 at 12h 09m 20s.xml">
+      <configuration name="TitleScreenTest.testSwitchSceneCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreenTest_testSwitchSceneCorrectly - 2019.07.09 at 15h 27m 25s.xml">
+      <configuration name="TitleScreenTest.testSwitchSceneCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreenTest - 2019.07.09 at 15h 46m 18s.xml">
+      <configuration name="TitleScreenTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreen2Test - 2019.07.09 at 19h 56m 37s.xml">
+      <configuration name="TitleScreen2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreen2Test - 2019.07.09 at 19h 58m 52s.xml">
+      <configuration name="TitleScreen2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreen2Test - 2019.07.09 at 20h 00m 53s.xml">
+      <configuration name="TitleScreen2Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TitleScreen2Test - 2019.07.09 at 20h 01m 25s.xml">
+      <configuration name="TitleScreen2Test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -377,7 +516,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20437019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22493573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -386,8 +525,8 @@
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32970026" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30282637" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30282637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/FXMLList.java" />
     <entry file="file://$PROJECT_DIR$/Plan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -533,111 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="113" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/NormalController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLMap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/SetFXMLPaths.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/NewMain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MainWindowController#0;class#MainWindowController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/FXMLName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/WindowModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TitleScreenController#0;class#TitleScreenController#0" />
-            <element signature="method#switchScene#0;class#TitleScreenController#0" />
-            <element signature="method#setPathsFXML#0;class#TitleScreenController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#TitleScreen2Controller#0;class#TitleScreen2Controller#0" />
-            <element signature="method#switchScene#0;class#TitleScreen2Controller#0" />
-            <element signature="method#setPathsFXML#0;class#TitleScreen2Controller#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ControlsController#0;class#ControlsController#0" />
-            <element signature="method#switchScene#0;class#ControlsController#0" />
-            <element signature="method#setPathsFXML#0;class#ControlsController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -653,20 +684,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/FXMLName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="306">
+          <caret line="18" column="142" selection-start-line="18" selection-start-column="142" selection-end-line="18" selection-end-column="142" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-win.jar!/javafx/util/Callback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MainWindowController#0;class#MainWindowController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/TestFXBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="-34">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#ConfirmController#0;class#ConfirmController#0" />
@@ -674,25 +763,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#TitleScreen2Controller#0;class#TitleScreen2Controller#0" />
+            <element signature="method#setPathsFXML#0;class#TitleScreen2Controller#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ControlsController#0;class#ControlsController#0" />
+            <element signature="method#setPathsFXML#0;class#ControlsController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#CharCreationController#0;class#CharCreationController#0" />
             <element signature="method#initialize#0;class#CharCreationController#0" />
-            <element signature="method#switchScene#0;class#CharCreationController#0" />
+            <element signature="method#checkLength#0;class#CharCreationController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#TitleScreenController#0;class#TitleScreenController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/TitleScreen2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/TitleScreenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/WindowModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testfx/testfx-junit5/4.0.15-alpha/testfx-junit5-4.0.15-alpha.jar!/org/testfx/framework/junit5/ApplicationTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,8 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.*?>
 <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0"
-          xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joni.controller.TitleScreenController">
+          xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joni.controller.TitleScreenController"
+          fx:id="titleScreen">
   <columnConstraints>
     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
   </columnConstraints>
@@ -14,6 +15,6 @@
   </rowConstraints>
    <children>
       <Label id="title" text="THE BLIND ONE" />
-      <Button mnemonicParsing="false" onAction="#switchScene" text="Press To Continue" GridPane.rowIndex="1" />
+      <Button mnemonicParsing="false" fx:id="pressToContinue" onAction="#switchScene" text="Press To Continue" GridPane.rowIndex="1" />
    </children>
 </GridPane>

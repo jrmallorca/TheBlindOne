@@ -6,6 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Button;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -16,18 +17,22 @@ import static com.joni.model.FXMLName.CONTROLS;
 
 public class TitleScreen2Controller extends MainWindowController {
 
+    // Fields mainly for testing purposes
+    @FXML
+    private GridPane titleScreen2;
+
     @FXML
     private Button newGame;
     @FXML
     private Button controls;
 
-    TitleScreen2Controller(Stage stage, WindowModel windowModel, HashMap<FXMLName, String> map) {
+    public TitleScreen2Controller(Stage stage, WindowModel windowModel, HashMap<FXMLName, String> map) {
         super(stage, windowModel, map);
         setPathsFXML();
     }
 
     @FXML
-    public void switchScene(ActionEvent event) throws IOException {
+    private void switchScene(ActionEvent event) throws IOException {
         Stage stage = getStage();
         WindowModel windowModel = getWindowModel();
         HashMap<FXMLName, String> mapFXML = getMapFXML();
@@ -41,10 +46,12 @@ public class TitleScreen2Controller extends MainWindowController {
             loader.setControllerFactory(type -> new ControlsController(stage, windowModel, mapFXML));
             windowModel.setSceneParent(stage, windowModel.getParent(loader));
         }
+
+        setNextRootID(stage.getScene().getRoot().getId());
     }
 
     @FXML
-    public void exitGame() {
+    private void exitGame() {
         getStage().close();
     }
 
