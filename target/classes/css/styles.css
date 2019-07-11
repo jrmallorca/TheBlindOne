@@ -34,3 +34,9 @@
 #confirmation {
 	-fx-background-image: url("../img/border.png");
 }
+
+/* IntroCutscene VBox to align the poem to the left */
+#cutsceneBox {
+	-fx-alignment: center-left;
+	-fx-background-color: rgba(0, 0, 0, 0.0);
+}

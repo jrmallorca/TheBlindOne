@@ -1,6 +1,5 @@
 package com.joni.controller;
 
-import com.joni.model.FXMLName;
 import com.joni.model.WindowModel;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,10 +9,9 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.HashMap;
 
-import static com.joni.model.FXMLName.CHAR_CREATION;
-import static com.joni.model.FXMLName.CONTROLS;
+import static com.joni.controller.FXMLName.CHAR_CREATION;
+import static com.joni.controller.FXMLName.CONTROLS;
 
 public class TitleScreen2Controller extends MainWindowController {
 
@@ -26,24 +24,22 @@ public class TitleScreen2Controller extends MainWindowController {
     @FXML
     private Button controls;
 
-    public TitleScreen2Controller(Stage stage, WindowModel windowModel, HashMap<FXMLName, String> map) {
-        super(stage, windowModel, map);
-        setPathsFXML();
+    public TitleScreen2Controller(Stage stage, WindowModel windowModel) {
+        super(stage, windowModel);
     }
 
     @FXML
     private void switchScene(ActionEvent event) throws IOException {
         Stage stage = getStage();
         WindowModel windowModel = getWindowModel();
-        HashMap<FXMLName, String> mapFXML = getMapFXML();
 
         if (event.getSource() == newGame) {
-            FXMLLoader loader = windowModel.getFXMLLoader(CHAR_CREATION, mapFXML);
-            loader.setControllerFactory(type -> new CharCreationController(stage, windowModel, mapFXML));
+            FXMLLoader loader = windowModel.getFXMLLoader(CHAR_CREATION);
+            loader.setControllerFactory(type -> new CharCreationController(stage, windowModel));
             windowModel.setSceneParent(stage, windowModel.getParent(loader));
         } else {
-            FXMLLoader loader = windowModel.getFXMLLoader(CONTROLS, mapFXML);
-            loader.setControllerFactory(type -> new ControlsController(stage, windowModel, mapFXML));
+            FXMLLoader loader = windowModel.getFXMLLoader(CONTROLS);
+            loader.setControllerFactory(type -> new ControlsController(stage, windowModel));
             windowModel.setSceneParent(stage, windowModel.getParent(loader));
         }
 
@@ -53,14 +49,6 @@ public class TitleScreen2Controller extends MainWindowController {
     @FXML
     private void exitGame() {
         getStage().close();
-    }
-
-    @Override
-    void setPathsFXML() {
-        HashMap<FXMLName, String> mapFXML = getMapFXML();
-        mapFXML.clear();
-        mapFXML.put(CHAR_CREATION, "/fxml/CharCreation.fxml");
-        mapFXML.put(CONTROLS, "/fxml/Controls.fxml");
     }
 
 }

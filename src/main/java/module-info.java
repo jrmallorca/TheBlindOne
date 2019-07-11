@@ -1,4 +1,5 @@
 module RPG {
+    requires javafx.media;
     requires javafx.controls;
     requires javafx.fxml;
 

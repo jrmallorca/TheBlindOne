@@ -1,7 +1,6 @@
 package com.joni;
 
 import com.joni.controller.TitleScreenController;
-import com.joni.model.FXMLName;
 import com.joni.model.WindowModel;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +9,8 @@ import javafx.scene.input.KeyCombination;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.HashMap;
 
-import static com.joni.model.FXMLName.TITLE_SCREEN;
+import static com.joni.controller.FXMLName.TITLE_SCREEN;
 
 public class Main extends Application {
 
@@ -20,12 +18,10 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         // Create an instance of a model that will help switching scenes
         WindowModel windowModel = new WindowModel();
-        HashMap<FXMLName, String> pathsFXML = new HashMap<>();
-        pathsFXML.put(TITLE_SCREEN, "/fxml/TitleScreen.fxml");
 
         // Load FXML file, set controller and its fields
-        FXMLLoader loader = windowModel.getFXMLLoader(FXMLName.TITLE_SCREEN, pathsFXML);
-        loader.setControllerFactory(type -> new TitleScreenController(stage, windowModel, pathsFXML));
+        FXMLLoader loader = windowModel.getFXMLLoader(TITLE_SCREEN);
+        loader.setControllerFactory(type -> new TitleScreenController(stage, windowModel));
 
         // Create an instance of a scene and set it to the stage
         stage.setScene(new Scene(windowModel.getParent(loader)));

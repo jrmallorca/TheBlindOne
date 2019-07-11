@@ -18,6 +18,6 @@
   </rowConstraints>
    <children>
       <Label text="Controls" GridPane.columnIndex="1" />
-      <Button mnemonicParsing="false" onAction="#switchScene" text="Back to Menu" GridPane.rowIndex="2" />
+      <Button mnemonicParsing="false" fx:id="backToMenu" onAction="#switchScene" text="Back to Menu" GridPane.rowIndex="2" />
    </children>
 </GridPane>

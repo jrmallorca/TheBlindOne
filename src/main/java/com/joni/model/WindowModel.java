@@ -5,15 +5,14 @@ import javafx.scene.Parent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.HashMap;
 
 /*
     This model handles the logic of switching scenes
  */
 public class WindowModel {
 
-    public FXMLLoader getFXMLLoader(FXMLName name, HashMap<FXMLName, String> map) {
-        return new FXMLLoader(getClass().getResource(map.get(name)));
+    public FXMLLoader getFXMLLoader(String pathFXML) {
+        return new FXMLLoader(getClass().getResource(pathFXML));
     }
 
     // Gets the parents and also sets the stylesheet
