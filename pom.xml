@@ -17,11 +17,6 @@
     <dependencies>
         <dependency>
             <groupId>org.openjfx</groupId>
-            <artifactId>javafx-media</artifactId>
-            <version>12</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>12</version>
         </dependency>
@@ -29,6 +24,16 @@
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
             <version>12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>12</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.typhon0</groupId>
+            <artifactId>AnimateFX</artifactId>
+            <version>1.2.1</version>
         </dependency>
 
         <!-- Dependencies for testing -->

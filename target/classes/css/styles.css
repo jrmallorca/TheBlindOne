@@ -14,6 +14,7 @@
 .label {
     -fx-font-size: 60px;
     -fx-text-align: center;
+    -fx-background-color: rgba(0, 0, 0, 0.0);
 }
 
 .button {

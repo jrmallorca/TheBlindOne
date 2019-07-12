@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
@@ -19,27 +18,24 @@
         <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
     </rowConstraints>
    <children>
+      <MediaView fx:id="mediaView" fitHeight="1080.0" fitWidth="1920.0" GridPane.columnSpan="2147483647">
+      </MediaView>
       <VBox id="cutsceneBox" alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.valignment="CENTER">
          <children>
-            <Label text="When the cold sun has risen">
+            <Label fx:id="label1" text="When the cold sun has risen" >
                <VBox.margin>
                   <Insets bottom="20.0" />
                </VBox.margin></Label>
-            <Label text="And the realm has been scarred">
+            <Label fx:id="label2" text="And the realm has been scarred" >
                <VBox.margin>
                   <Insets bottom="20.0" />
                </VBox.margin></Label>
-            <Label text="The land shall be stained in crimson">
+            <Label fx:id="label3" text="The land shall be stained in crimson" >
                <VBox.margin>
                   <Insets bottom="20.0" />
                </VBox.margin></Label>
-            <Label text="By the demons in your heart" />
+            <Label fx:id="label4" text="By the demons in your heart" />
          </children>
       </VBox>
-      <MediaView fitHeight="200.0" fitWidth="200.0" GridPane.columnSpan="2147483647">
-         <viewport>
-            <Rectangle2D height="1280.0" width="1920.0" />
-         </viewport>
-      </MediaView>
    </children>
 </GridPane>

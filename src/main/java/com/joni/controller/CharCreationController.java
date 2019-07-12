@@ -18,6 +18,7 @@ import java.util.ResourceBundle;
 
 import static com.joni.controller.FXMLName.*;
 
+// TODO: 11/07/2019 Possibly can replace Confirm.fxml as you can manually put a stage in via Scene Builder
 public class CharCreationController extends MainWindowController implements Initializable {
 
     // Fields mainly for testing purposes

@@ -14,6 +14,7 @@
 .label {
     -fx-font-size: 60px;
     -fx-text-align: center;
+    -fx-background-color: rgba(0, 0, 0, 0.0);
 }
 
 .button {
@@ -33,6 +34,12 @@
 /* Confirmation prompt border */
 #confirmation {
 	-fx-background-image: url("../img/border.png");
+}
+
+#controlsPane > .label {
+	-fx-padding: 0 20px;
+	-fx-font-size: 40px;
+
 }
 
 /* IntroCutscene VBox to align the poem to the left */
