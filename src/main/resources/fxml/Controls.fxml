@@ -34,6 +34,10 @@
                   <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
                   <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
                   <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
                   <Label text="Interrupt enemy attack" GridPane.columnIndex="1" />
@@ -46,6 +50,20 @@
                   <Label text="Block / Charge mana / Parry" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <Label text="D" GridPane.rowIndex="3" />
                   <Label text="Dodge right" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+                  <Label text="Left click" GridPane.rowIndex="4" />
+                  <Label text="Normal attack" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label text="1" GridPane.rowIndex="5" />
+                   <Label text="Skill button 1" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label text="2" GridPane.rowIndex="6" />
+                   <Label text="Skill button 2" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Label text="3" GridPane.rowIndex="7" />
+                   <Label text="Skill button 3" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="5" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
                </children>
             </GridPane>
          </content>

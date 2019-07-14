@@ -11,4 +11,6 @@ public final class FXMLName {
 
     public static final String INTRO = "/fxml/IntroCutscene.fxml";
 
+    public static final String ZOMBIE = "/fxml/Zombie.fxml";
+
 }

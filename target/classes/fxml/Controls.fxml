@@ -2,10 +2,13 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.*?>
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0"
-          xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joni.controller.ControlsController"
-          fx:id="controls">
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="controls" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.joni.controller.ControlsController">
   <columnConstraints>
     <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="400.0" />
       <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -18,6 +21,52 @@
   </rowConstraints>
    <children>
       <Label text="Controls" GridPane.columnIndex="1" />
-      <Button mnemonicParsing="false" fx:id="backToMenu" onAction="#switchScene" text="Back to Menu" GridPane.rowIndex="2" />
+      <Button fx:id="backToMenu" mnemonicParsing="false" onAction="#switchScene" text="Back to Menu" GridPane.rowIndex="2" />
+      <ScrollPane fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" hvalue="1.0" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <content>
+            <GridPane id="controlsPane" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="778.0" prefWidth="1118.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="300.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="50.0" prefHeight="50.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Interrupt enemy attack" GridPane.columnIndex="1" />
+                  <Label text="W" />
+                  <Separator orientation="VERTICAL" prefHeight="200.0" GridPane.halignment="RIGHT" GridPane.rowSpan="2147483647" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.valignment="BOTTOM" />
+                  <Label text="A" GridPane.rowIndex="1" />
+                  <Label text="Dodge left" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="S" GridPane.rowIndex="2" />
+                  <Label text="Block / Charge mana / Parry" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label text="D" GridPane.rowIndex="3" />
+                  <Label text="Dodge right" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="3" GridPane.valignment="BOTTOM" />
+                  <Label text="Left click" GridPane.rowIndex="4" />
+                  <Label text="Normal attack" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label text="1" GridPane.rowIndex="5" />
+                   <Label text="Skill button 1" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label text="2" GridPane.rowIndex="6" />
+                   <Label text="Skill button 2" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Label text="3" GridPane.rowIndex="7" />
+                   <Label text="Skill button 3" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="5" GridPane.valignment="BOTTOM" />
+                  <Separator prefWidth="200.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="6" GridPane.valignment="BOTTOM" />
+               </children>
+            </GridPane>
+         </content>
+      </ScrollPane>
    </children>
 </GridPane>
