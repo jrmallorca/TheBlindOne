@@ -26,3 +26,6 @@ Instructions
 
 Getters and setters for each controller so as to be able to set values within their fields.
 Implement MVC Design Pattern
+
+Find a way to get a random attack
+Depending on that attack, we know which buttons should give a positive/negative infliction to the character

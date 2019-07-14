@@ -1,7 +1,8 @@
 package com.joni.combatTest;
 
 import com.joni.TestFXBase;
-import com.joni.controller.ZombieController;
+import com.joni.controller.enemies.CombatController;
+import com.joni.entities.enemies.Zombie;
 import com.joni.model.WindowModel;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -14,12 +15,12 @@ import java.math.BigDecimal;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.joni.controller.FXMLName.ZOMBIE;
+import static com.joni.controller.FXMLName.COMBAT;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ZombieTest extends TestFXBase {
 
-    private ZombieController controller;
+    private CombatController controller;
 
     @Override
     public void start(Stage stage) throws IOException {
@@ -27,8 +28,8 @@ public class ZombieTest extends TestFXBase {
         WindowModel windowModel = getWindowModel();
 
         // Load FXML file, set controller and its fields
-        FXMLLoader loader = windowModel.getFXMLLoader(ZOMBIE);
-        loader.setControllerFactory(type -> new ZombieController(stage, windowModel));
+        FXMLLoader loader = windowModel.getFXMLLoader(COMBAT);
+        loader.setControllerFactory(type -> new CombatController(stage, windowModel, new Zombie()));
 
         // Create an instance of a scene and set it to the stage
         stage.setScene(new Scene(windowModel.getParent(loader)));

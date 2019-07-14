@@ -1,5 +1,6 @@
-package com.joni.controller;
+package com.joni.controller.titleScreen;
 
+import com.joni.controller.MainWindowController;
 import com.joni.model.WindowModel;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,22 +12,19 @@ import java.io.IOException;
 
 import static com.joni.controller.FXMLName.TITLE_SCREEN_2;
 
-public class TitleScreenController extends MainWindowController {
+public class ControlsController extends MainWindowController {
 
-    // Fields mainly for testing purposes
+    // Field(s) mainly for testing purposes
     @FXML
-    private GridPane titleScreen;
+    private GridPane controls;
 
     @FXML
-    private Button pressToContinue;
+    private Button backToMenu;
 
-    public TitleScreenController(Stage stage, WindowModel windowModel) {
+    public ControlsController(Stage stage, WindowModel windowModel) {
         super(stage, windowModel);
     }
 
-    // TODO: 06/07/2019 I wonder if we can use getConstructor(Stage.class, WindowModel.class, HashMap<>.class).newInstance(stage, windowModel);
-    // TODO: 06/07/2019 to replace the content in loader.setControllerFactory(...);
-    // Check once you've tried implementing controllers for fight scenes
     @FXML
     private void switchScene() throws IOException {
         Stage stage = getStage();

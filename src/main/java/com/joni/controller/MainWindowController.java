@@ -3,25 +3,25 @@ package com.joni.controller;
 import com.joni.model.WindowModel;
 import javafx.stage.Stage;
 
-abstract class MainWindowController {
+public abstract class MainWindowController {
 
     // TODO: 09/07/2019 Consider making these fields static 
     private Stage stage;
     private WindowModel windowModel;
 
-    // Fields mainly for testing purposes
+    // Field(s) mainly for testing purposes
     private String nextRootID; // Checks if scene switches properly
 
-    MainWindowController(Stage stage, WindowModel windowModel) {
+    protected MainWindowController(Stage stage, WindowModel windowModel) {
         this.stage = stage;
         this.windowModel = windowModel;
     }
 
-    Stage getStage() {
+    protected Stage getStage() {
         return stage;
     }
 
-    WindowModel getWindowModel() {
+    protected WindowModel getWindowModel() {
         return windowModel;
     }
 
@@ -29,7 +29,7 @@ abstract class MainWindowController {
         return nextRootID;
     }
 
-    void setNextRootID(String nextRootID) {
+    protected void setNextRootID(String nextRootID) {
         this.nextRootID = nextRootID;
     }
 }

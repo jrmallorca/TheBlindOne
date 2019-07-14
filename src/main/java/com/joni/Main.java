@@ -1,6 +1,6 @@
 package com.joni;
 
-import com.joni.controller.TitleScreenController;
+import com.joni.controller.titleScreen.TitleScreenController;
 import com.joni.model.WindowModel;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

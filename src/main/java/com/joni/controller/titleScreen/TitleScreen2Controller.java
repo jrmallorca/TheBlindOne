@@ -1,5 +1,7 @@
-package com.joni.controller;
+package com.joni.controller.titleScreen;
 
+import com.joni.controller.CharCreationController;
+import com.joni.controller.MainWindowController;
 import com.joni.model.WindowModel;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -15,7 +17,7 @@ import static com.joni.controller.FXMLName.CONTROLS;
 
 public class TitleScreen2Controller extends MainWindowController {
 
-    // Fields mainly for testing purposes
+    // Field(s) mainly for testing purposes
     @FXML
     private GridPane titleScreen2;
 

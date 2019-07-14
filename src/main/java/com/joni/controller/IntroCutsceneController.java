@@ -19,7 +19,7 @@ import java.util.ResourceBundle;
 
 public class IntroCutsceneController extends MainWindowController implements Initializable {
 
-    // Fields mainly for testing purposes
+    // Field(s) mainly for testing purposes
     @FXML
     private GridPane introCutscene;
 

@@ -1,7 +1,7 @@
 package com.joni.beginningTests;
 
 import com.joni.TestFXBase;
-import com.joni.controller.TitleScreen2Controller;
+import com.joni.controller.titleScreen.TitleScreen2Controller;
 import com.joni.model.WindowModel;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
