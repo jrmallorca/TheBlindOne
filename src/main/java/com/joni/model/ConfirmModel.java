@@ -21,7 +21,6 @@ public class ConfirmModel {
         popUp.initStyle(StageStyle.UNDECORATED); // Makes sure that window has no minimize, exit, etc. buttons
         popUp.initModality(Modality.APPLICATION_MODAL); // Window process has to be completed before being able to interact with parent window
 
-        // TODO: 09/07/2019 Make sure to make the labelText a parameter soon
         loader.setControllerFactory(type -> new ConfirmController("Is this your name?", popUp));
         Parent parent = loader.load();
         parent.getStylesheets().add(getClass().getResource("/css/styles.css").toExternalForm());

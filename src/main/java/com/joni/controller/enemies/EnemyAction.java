@@ -1,6 +1,6 @@
 package com.joni.controller.enemies;
 
-public enum Attack {
+public enum EnemyAction {
 
     L_ATK,
     R_ATK,

@@ -3,7 +3,6 @@ package com.joni.controller.enemies;
 import com.joni.controller.MainWindowController;
 import com.joni.entities.Player;
 import com.joni.entities.enemies.Enemy;
-import com.joni.model.CombatModel;
 import com.joni.model.WindowModel;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -25,25 +24,25 @@ public class CombatController extends MainWindowController implements Initializa
     @FXML
     private GridPane combat;
 
-    private CombatModel combatModel;
     private Player player;
     private Enemy enemy;
-    private Attack attack;
+    private EnemyAction enemyAction;
+
+    @FXML
+    private Label enemyActionText;
 
     @FXML
     private Label countdown;
-    private BigDecimal attackTime;
+    private BigDecimal attackTime; // Initial enemy attack time
+    private BigDecimal reactTime; // Time when the player produces a reaction (remaining attackTime)
     private final BigDecimal decrement = new BigDecimal("0.1");
     private final Timer timer = new Timer();
 
     // TODO: 14/07/2019 Include a possible list of monsters to be encountered and then get a random one
-    public CombatController(Stage stage, WindowModel windowModel, CombatModel combatModel, Player player, Enemy enemy) {
+    public CombatController(Stage stage, WindowModel windowModel, Player player, Enemy enemy) {
         super(stage, windowModel);
-        this.combatModel = combatModel;
         this.player = player;
         this.enemy = enemy;
-
-        attackTime = enemy.getAttackTime();
     }
 
     @Override
@@ -52,11 +51,16 @@ public class CombatController extends MainWindowController implements Initializa
     }
 
     private void fightLoop() {
-        attack = combatModel.randomEnum(Attack.class);
+        // Get original attack time
+        resetAttackTime();
 
-        countdown.setText(attackTime.toString());
+        // Get the random enemyAction and set its respective label text
+        enemyAction = enemy.randomEnum(EnemyAction.class);
+        enemyActionText.setText(enemy.enemyActionString(enemyAction));
 
+        // Start the timer and its respective task
         // The timer drops every 0.1 seconds until it gets a player reaction, or becomes 0.0
+        countdown.setText(attackTime.toString());
         timer.scheduleAtFixedRate(new TimerTask() {
 
             @Override
@@ -76,11 +80,46 @@ public class CombatController extends MainWindowController implements Initializa
     @FXML
     private void playerReaction(KeyEvent keyEvent) {
         // TODO: 13/07/2019 Actual combat logic
+        // Stop timer
+        reactTime = attackTime;
+        timer.cancel();
 
+        // Check effect
+        switch (keyEvent.getCode()) {
+            case W:
+                player.getVocation().buttonW(enemyAction, player, enemy, reactTime);
+                break;
+            case A:
+                player.getVocation().buttonA(enemyAction, player, enemy);
+                break;
+            case S:
+                player.getVocation().buttonS(enemyAction, player, enemy);
+                break;
+            case D:
+                player.getVocation().buttonD(enemyAction, player, enemy);
+                break;
+            case DIGIT1:
+                player.getVocation().skillButtonOne(enemyAction, player, enemy);
+                break;
+            case DIGIT2:
+                player.getVocation().skillButtonTwo(enemyAction, player, enemy);
+                break;
+            case DIGIT3:
+                player.getVocation().skillButtonThree(enemyAction, player, enemy);
+                break;
+
+        }
+
+        if (player.getHp() >= 0 || enemy.getHp() >= 0) fightLoop();
+//            else switchScene();
     }
 
     private void noPlayerReaction() {
         // TODO: 13/07/2019 Calculate damage done to player
+    }
+
+    private void resetAttackTime() {
+        attackTime = enemy.getAttackTime();
     }
 
     public BigDecimal getAttackTime() {

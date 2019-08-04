@@ -2,7 +2,9 @@ package com.joni.combatTest;
 
 import com.joni.TestFXBase;
 import com.joni.controller.enemies.CombatController;
+import com.joni.entities.Player;
 import com.joni.entities.enemies.Zombie;
+import com.joni.entities.vocations.Fighter;
 import com.joni.model.WindowModel;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -29,7 +31,7 @@ public class ZombieTest extends TestFXBase {
 
         // Load FXML file, set controller and its fields
         FXMLLoader loader = windowModel.getFXMLLoader(COMBAT);
-        loader.setControllerFactory(type -> new CombatController(stage, windowModel, new Zombie()));
+        loader.setControllerFactory(type -> new CombatController(stage, windowModel, new Player("Sol", 1, 1, new Fighter()), new Zombie()));
 
         // Create an instance of a scene and set it to the stage
         stage.setScene(new Scene(windowModel.getParent(loader)));
@@ -40,6 +42,11 @@ public class ZombieTest extends TestFXBase {
         stage.setFullScreenExitKeyCombination(KeyCombination.NO_MATCH);
 
         stage.show();
+    }
+
+    @Test
+    void testLook() {
+        sleep(10000);
     }
 
     // Makes sure that attackTime actually decreases
@@ -56,5 +63,7 @@ public class ZombieTest extends TestFXBase {
 
         }, 100);
     }
+
+
 
 }

@@ -41,7 +41,6 @@ public class IntroCutsceneController extends MainWindowController implements Ini
     }
 
     @Override
-    // TODO: 11/07/2019 Make it so that visibility works properly so animation works properly
     // TODO: 12/07/2019 Change the last line of the poem or manage to conjure a better overall poem
     public void initialize(URL url, ResourceBundle resourceBundle) {
         // Opacity set to 0 so that it would appear when the animation is used

@@ -2,48 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f28326f-d0de-490c-9b6b-5a21f1b687a9" name="Default Changelist" comment="Made code neater using MainWindowController">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/Plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/titleScreen/ControlsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/IntroCutsceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/IntroCutsceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/titleScreen/TitleScreen2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/titleScreen/TitleScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/ZombieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/CombatController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/model/CombatModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/model/CombatModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/Controls.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen2.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/Zombie.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/enemies/Combat.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/ControlsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/ControlsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/TitleScreen2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/TitleScreen2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/TitleScreenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/TitleScreenTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/Attack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/EnemyAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/CombatController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/CombatController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/entities/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/entities/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Zombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Zombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/model/CombatModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/enemies/Combat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/enemies/Combat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/Controls.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/Controls.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen2.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/joni/combatTest/ZombieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/joni/combatTest/ZombieTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/CharCreationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/CharCreationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/ControlsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/FXMLName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/FXMLName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/rpg.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/IntroCutsceneController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/IntroCutsceneController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/MainWindowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/MainWindowController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/TitleScreen2Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/TitleScreenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/ZombieController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/ZombieController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Controls.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/TitleScreen.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/TitleScreen2.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/fxml/Zombie.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joni/beginningTests/ControlsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joni/beginningTests/ControlsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joni/beginningTests/TitleScreen2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joni/beginningTests/TitleScreen2Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/joni/beginningTests/TitleScreenTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joni/beginningTests/TitleScreenTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/enemies/CombatController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/enemies/CombatController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/controller/enemies/CombatController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/controller/enemies/CombatController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/entities/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/entities/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/entities/enemies/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/entities/enemies/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/entities/enemies/Zombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/entities/enemies/Zombie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/model/CombatModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/joni/model/ConfirmModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/joni/model/ConfirmModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/enemies/Combat.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/enemies/Combat.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/titleScreen/TitleScreen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/titleScreen/TitleScreen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/titleScreen/TitleScreen2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/titleScreen/TitleScreen2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/joni/combatTest/ZombieTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joni/combatTest/ZombieTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/joni/combatTest/ZombieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/joni/combatTest/ZombieTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,99 +45,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/CombatController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1179">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1214#1215#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1647#2083#0" expanded="true" />
-                <element signature="e#2082#2083#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/Attack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Enemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-              <folding>
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Zombie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/CombatModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/combatTest/ZombieTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Plan.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="510">
-                <caret line="30" column="107" selection-start-line="30" selection-start-column="107" selection-end-line="30" selection-end-column="107" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -153,270 +52,49 @@
         <option value="JavaFXApplication" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="FxmlFile" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="FXMLController" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Popup</find>
-      <find>Hygene</find>
-      <find>Fields</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Field(s)</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/TitleScreenController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controllers/CharCreationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/AlphaNumericTextFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/MaxLengthTextFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/models/WindowModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLMap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/SetFXMLPaths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/NewMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmationModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmationController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Confirmation.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/model/FXMLName.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Confirm.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/WindowSceneTests.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/TitleScreen2.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/model/WindowModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/TestFXBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/TitleScreenTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/TitleScreen2Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/ControlsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreen2Controller.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/BeginningTests/ControlsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/BeginningTests/CharCreationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/IntroCutscene.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/IntroCutsceneController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/beginningTests/CharCreationTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ControlsController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Controls.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Zombie.fxml4.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/TitleScreenController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/Zombie.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/ZombieController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/ZombieController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Zombie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/enemies/Zombie.fxml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/joni/combatTest/ZombieTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLName.java" />
-        <option value="$PROJECT_DIR$/Plan.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/Attack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/CombatController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joni/model/CombatModel.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rpg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rpg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rpg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="rpg" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1613" />
-    <option name="height" value="867" />
-  </component>
+  <component name="ProjectId" id="1Ojrkd3fBSjniQALzAAw77ApfFQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joni" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joni" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="enemies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-              <item name="enemies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="gif" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joni" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPG" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="joni" type="462c0819:PsiDirectoryNode" />
-              <item name="combatTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/4391775-91a15bc61cb1de7cc14e6b7b5f3ce076616b8351/4391775-91a15bc61cb1de7cc14e6b7b5f3ce076616b8351" />
+    <property name="last_opened_file_path" value="C:/Program Files/SceneBuilder/SceneBuilder.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.joni.entities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java Projects\RPG\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaProjects\RPG\src\main\resources\fxml\enemies" />
       <recent name="D:\JavaProjects\RPG\src\main\resources\fxml\titleScreen" />
       <recent name="D:\JavaProjects\RPG\src\main\resources\gif" />
       <recent name="D:\JavaProjects\RPG" />
       <recent name="D:\JavaProjects\RPG\src\main\resources\fxml" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java Projects\RPG\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,13 +109,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.com.joni.beginningTests in rpg">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.joni.Main" />
       <module name="rpg" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joni.controller.enemies.*" />
+          <option name="PATTERN" value="com.joni.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -445,10 +123,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in rpg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZombieTest.testLook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpg" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joni.combatTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.joni.combatTest" />
+      <option name="MAIN_CLASS_NAME" value="com.joni.combatTest.ZombieTest" />
+      <option name="METHOD_NAME" value="testLook" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -499,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.com.joni.beginningTests in rpg" />
-        <item itemvalue="JUnit.ZombieTest.testTimer" />
-        <item itemvalue="JUnit.com.joni in rpg" />
-        <item itemvalue="JUnit.All in rpg" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ZombieTest.testLook" />
+        <item itemvalue="JUnit.ZombieTest.testTimer" />
+        <item itemvalue="JUnit.com.joni.beginningTests in rpg" />
+        <item itemvalue="JUnit.com.joni in rpg" />
       </list>
     </recent_temporary>
   </component>
@@ -549,131 +235,13 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 09h 10m 15s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 09h 12m 13s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 09h 13m 09s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 09h 13m 28s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_joni_in_rpg - 2019.07.14 at 10h 19m 59s.xml">
-      <configuration name="com.joni in rpg" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 14h 27m 00s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_joni_beginningTests_in_rpg - 2019.07.14 at 14h 32m 08s.xml">
-      <configuration name="com.joni.beginningTests in rpg" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 14h 32m 27s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZombieTest_testTimer - 2019.07.14 at 14h 35m 38s.xml">
-      <configuration name="ZombieTest.testTimer" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="com_joni_beginningTests_in_rpg - 2019.07.14 at 14h 42m 37s.xml">
-      <configuration name="com.joni.beginningTests in rpg" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1613" height="867" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26658082" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32833788" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3065395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3270525" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32561308" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32969153" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.3298969" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25064433" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3065395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39918256" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3270525" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3257066" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32969153" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Preview" order="8" weight="0.3298969" />
-    </layout-to-restore>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -701,501 +269,5 @@
     <MESSAGE value="Made code neater using MainWindowController" />
     <option name="LAST_COMMIT_MESSAGE" value="Made code neater using MainWindowController" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/12/javafx-graphics-12-win.jar!/com/sun/glass/ui/win/WinApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/12/javafx-fxml-12-win.jar!/javafx/fxml/FXMLLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="455" selection-start-line="455" selection-end-line="455" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/NormalController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLMap.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/SetFXMLPaths.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/NewMain.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-win.jar!/javafx/util/Callback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testfx/testfx-junit5/4.0.15-alpha/testfx-junit5-4.0.15-alpha.jar!/org/testfx/framework/junit5/ApplicationTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/CharCreation.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/BeginningTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/beginningTests/TitleScreenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/AlphaNumericTextFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/MaxLengthTextFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/beginningTests/TitleScreen2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testfx/testfx-core/4.0.15-alpha/testfx-core-4.0.15-alpha.jar!/org/testfx/api/FxRobotInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="532" column="21" selection-start-line="532" selection-start-column="21" selection-end-line="532" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen2.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/ConfirmModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/12/javafx-controls-12-win.jar!/javafx/scene/control/Labeled.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/typhon0/AnimateFX/1.2.1/AnimateFX-1.2.1.jar!/animatefx/animation/AnimationFX.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/typhon0/AnimateFX/1.2.1/AnimateFX-1.2.1.jar!/animatefx/animation/FadeIn.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/github/typhon0/AnimateFX/1.2.1/AnimateFX-1.2.1.jar!/animatefx/util/ParallelAnimationFX.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/IntroCutscene.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/titleScreen/Controls.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="62" column="46" selection-start-line="62" selection-start-column="46" selection-end-line="62" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/4391775-91a15bc61cb1de7cc14e6b7b5f3ce076616b8351/4391775-91a15bc61cb1de7cc14e6b7b5f3ce076616b8351/LabeledProgressBarSample.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/IntroCutsceneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/CharCreationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initialize#0;class#CharCreationController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/titleScreen/TitleScreen.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="55" selection-end-line="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/beginningTests/CharCreationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="324" column="22" selection-start-line="324" selection-start-column="22" selection-end-line="324" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/beginningTests/ControlsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/titleScreen/TitleScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#switchScene#0;class#TitleScreenController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/titleScreen/TitleScreen2Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/titleScreen/ControlsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/ConfirmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ConfirmController#0;class#ConfirmController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/entities/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/TestFXBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/enemies/Combat.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/FXMLName.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="68" lean-forward="true" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/WindowModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/joni/combatTest/ZombieTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plan.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="510">
-            <caret line="30" column="107" selection-start-line="30" selection-start-column="107" selection-end-line="30" selection-end-column="107" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Zombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/entities/enemies/Enemy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/Attack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/MainWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Confirm.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/controller/enemies/CombatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1179">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-            <element signature="e#1647#2083#0" expanded="true" />
-            <element signature="e#2082#2083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/joni/model/CombatModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>12.0.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>rpg</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.openjfx:javafx-base:12</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
