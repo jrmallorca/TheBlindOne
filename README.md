@@ -1,5 +1,5 @@
 # TheBlindOne
-A summer text-based game project dedicated on learning more about MVC design pattern, JavaFX and unit testing through JUnit.
+(Unfinished) A summer text-based game project dedicated on learning more about MVC design pattern, JavaFX and unit testing through JUnit.
 
 (If you need to quit the program after running it, please do it through Alt+F4 unless presented with the quit game option in the 
 menu)
